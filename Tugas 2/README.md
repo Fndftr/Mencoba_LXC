@@ -1,3 +1,7 @@
+Nama : Fendi Virgainsyah
+kelas: IF 01-02
+NIM : 1203210086
+
 # Load Balancing dengan Round Robin
 
 1.	Create microservice3
@@ -5,16 +9,19 @@
 sudo lxc-create -n microservice3 -t download -- --dist "debian" --release "buster" –arch amd64
 ```
 ![Alt text](./assets/Picture1.png)
+
 2.	Create microservice4
 ```bash
 sudo lxc-create -n microservice4 -t download -- --dist "debian" --release "buster" –arch amd64
 ```
 ![Alt text](./assets/Picture2.png)
+
 3.	Create microservice5
 ```bash
 sudo lxc-create -n microservice5 -t download -- --dist "debian" --release "buster" –arch amd64
 ```
 ![Alt text](./assets/Picture3.png)
+
 4.	Jalankan semua microservice yang telah di buat.
 ```bash
 lxc-start -n microservice3
@@ -43,7 +50,10 @@ apt install nginx nano
 nano /etc/hosts
 ```
 ![Alt text](./assets/Picture6.png)
-#exitKonfigurasi microservice4
+```bash
+exit
+```
+Konfigurasi microservice4
 1.	Update dan Install nginx
 ```bash
 apt update
@@ -52,6 +62,7 @@ apt update
 apt install nginx nano
 ```
 ![Alt text](./assets/Picture7.png)
+
 ```bash
 nano /etc/hosts
 ```
