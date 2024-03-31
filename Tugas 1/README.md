@@ -1,7 +1,11 @@
-tugas virtualisasi web server
+tugas virtualisasi web 
+
 Nama : Fendi Virgainsyah
+
 kelas: IF 01-02
+
 NIM : 1203210086
+
 1.	buat microservice 1
 ```bash
 lxc-create --name microservice1 --template download -- --dist "ubuntu" --release "focal" --arch amd64
