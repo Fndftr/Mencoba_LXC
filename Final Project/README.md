@@ -37,3 +37,6 @@ lxc-create --name debian2 --template download -- --dist "debian" --release "bust
 lxc-create --name debianDB --template download -- --dist "debian" --release "buster" --arch amd64
 ```
 ![Alt text](./asset/continer.png)
+3. cek ip WSL yang eth0 dan daftarkan ip wsl ke c:/Windows/System32/drivers/etc/hosts dengan domain kelompok05.fpsas
+![Alt text](./asset/ifconfig.png)
+![Alt text](./asset/hosts.png)
