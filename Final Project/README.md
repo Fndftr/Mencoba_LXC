@@ -24,7 +24,7 @@ mkdir project
 cd project
 ```
 
-2.	buat LXC
+2.	buat LXC dan start lcx
 ```bash
 lxc-create --name ubuntu20.1 --template download -- --dist "ubuntu" --release "focal" --arch amd64
 lxc-create --name ubuntu20.2 --template download -- --dist "ubuntu" --release "focal" --arch amd64
