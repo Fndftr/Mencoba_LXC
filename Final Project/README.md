@@ -18,8 +18,15 @@ Scheme :
 ![00_scheme](asset/setup.png)
 
 ------
+1. Buat folder project
+```bash
+mkdir project
+```
+```bash
+cd project
+```
 
-1.	buat LXC
+2.	buat LXC
 ```bash
 lxc-create --name ubuntu20.1 --template download -- --dist "ubuntu" --release "focal" --arch amd64
 ```
